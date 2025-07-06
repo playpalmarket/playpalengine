@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Ketentuan Garansi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --background: #f9fafb;
+      --text: #1f2937;
+      --highlight: #d32f2f;
+      --card: #ffffff;
+      --border: #e5e7eb;
+      --font: 'Segoe UI', 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: var(--background);
+      color: var(--text);
+      font-family: var(--font);
+      margin: 0;
+      padding: 60px 20px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: auto;
+      background-color: var(--card);
+      padding: 40px 50px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 1.9em;
+      margin-bottom: 30px;
+      font-weight: 600;
+      color: #111827;
+    }
+
+    ol {
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 20px;
+      line-height: 1.7;
+      font-size: 16.5px;
+    }
+
+    li span {
+      display: block;
+      color: var(--highlight);
+      font-weight: 600;
+      margin-top: 6px;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 30px 25px;
+      }
+
+      h2 {
+        font-size: 1.6em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>KETENTUAN GARANSI</h2>
+    <ol>
+      <li>
+        Dilarang mengubah informasi akun dalam bentuk apa pun, termasuk email, password, dan lainnya.
+        <span>Pelanggaran akan dikenakan denda sebesar Rp150.000.</span>
+      </li>
+      <li>Login hanya diperbolehkan melalui aplikasi atau website resmi.</li>
+      <li>Akun hanya boleh digunakan pada <strong>1 perangkat</strong>.</li>
+      <li>Dilarang login pada perangkat lain tanpa logout dari perangkat sebelumnya.</li>
+      <li>Jika ingin berpindah perangkat, wajib logout dari perangkat sebelumnya terlebih dahulu.</li>
+      <li>Masa garansi berlaku sesuai dengan durasi yang telah ditentukan.</li>
+      <li>
+        Pelanggaran terhadap ketentuan ini akan menyebabkan
+        <strong>garansi hangus</strong> dan dikenakan <strong>denda</strong> sesuai peraturan.
+      </li>
+    </ol>
+  </div>
+</body>
+</html>
